@@ -6,7 +6,7 @@ const Testimonials = () => {
             <h1 className='text-3xl md:text-4xl font-fraunces font-bold tracking-widest text-[#a7abae] text-center'>
                 Client Testimonials
             </h1>
-            <div className='flex flex-col lg:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-6'>
+            <div className='flex flex-col xl:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-6'>
                 {testimonials.map((testimonial, i) => (
                     <div
                         key={i}
